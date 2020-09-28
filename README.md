@@ -9,11 +9,13 @@ A Wikipedia or MediaWiki account is required to install. Before you begin, ensur
 
 The gist: copy the CSS and JavaScript from the provided links and add to your own Custom CSS and JavaScript for the Minerva Neue theme, and then select the Minerva Neue theme as your main. More detailed steps are outlined below.
 
+Check back periodically to see if the code has been updated. If so, follow the installation process again.
+
 ### Step One
-Copy and paste the CSS from [here](https://github.com/nathanielsorochan/Minerva-Neue-2.0/blob/master/minerva.css) into mediawiki.org/wiki/User:YOURUSERNAME/minerva.css and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
+Copy and paste the CSS from [here](https://raw.githubusercontent.com/natster101s/Minerva-Neue-2.0/master/minerva.css) into mediawiki.org/wiki/User:YOURUSERNAME/minerva.css and save changes. If it says that this page does not exist, click the edit button anyway and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
 
 ### Step Two
-Copy and paste the JavaScript from [here](https://github.com/nathanielsorochan/Minerva-Neue-2.0/blob/master/minerva.js) into mediawiki.org/wiki/User:YOURUSERNAME/minerva.js and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
+Copy and paste the JavaScript from [here](https://raw.githubusercontent.com/natster101s/Minerva-Neue-2.0/master/minerva.js) into mediawiki.org/wiki/User:YOURUSERNAME/minerva.js and save changes. If it says that this page does not exist, click the edit button anyway and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
 
 *Please note, JavaScript is not necessary for the theme to function, but enhances the experience*
 
@@ -32,7 +34,9 @@ Version 3.2: Simple bug fixes
 *Please note that versions prior to 3.2 are not documented on this git*
 
 ## Bugs and Fixes
-Bug fixes are welcome, especially improving Dark Mode!
+Everyone is welcome to contribute to the project!
+
+For those who encounter bugs or issues without any coding experience, please create an Issue from the Issues tab, describe the bug, and we will do the best we can to fix it! You should come back periodically to check if your issue was resolved and the code was updated.
 
 Please note that the Dark Mode is experimental at this point, and some elements may not render correctly, especially when editing.
 
