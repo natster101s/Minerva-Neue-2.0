@@ -6,7 +6,7 @@ This skin is a modification of the existing Minerva Neue theme. It provides a sl
 
 ## Installation on MediaWiki Projects
 
-'''To Install''': Copy the CSS and JavaScript from the provided links and add to your own Custom CSS and JavaScript for the Minerva Neue theme, and then select the Minerva Neue theme as your main. For example, add the CSS from mediawiki.org/wiki/User:Natster101/minerva.css to mediawiki.org/wiki/User:YOURUSERNAME/minerva.css and mediawiki.org/wiki/User:Natster101/minerva.js to mediawiki.org/wiki/User:YOURUSERNAME/minerva.js. For Wikipedia, change mediawiki.org to en.wikipedia.org.
+Copy the CSS and JavaScript from the provided links and add to your own Custom CSS and JavaScript for the Minerva Neue theme, and then select the Minerva Neue theme as your main. For example, add the CSS from mediawiki.org/wiki/User:Natster101/minerva.css to mediawiki.org/wiki/User:YOURUSERNAME/minerva.css and mediawiki.org/wiki/User:Natster101/minerva.js to mediawiki.org/wiki/User:YOURUSERNAME/minerva.js. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
 
 ## Changelog
 (Please note that versions prior to 3.2 are not documented on this git)
