@@ -38,6 +38,6 @@ Everyone is welcome to contribute to the project!
 
 For those who encounter bugs or issues without any coding experience, please create an Issue from the Issues tab, describe the bug, and we will do the best we can to fix it! You should come back periodically to check if your issue was resolved and the code has been updated.
 
-Please note that the Dark Mode is experimental at this point, and some elements may not render correctly, especially when editing, but we're working on it!
+Please note that the Dark Mode is experimental at this point, and some elements may not render correctly, especially when editing, but we're working on it! As well, we are aware of an issue where pages may take a little longer to load.
 
 
