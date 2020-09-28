@@ -2,7 +2,7 @@
 A modification to the MediaWiki Minerva Neue skin. Can be used on all MediaWiki projects, including Wikipedia.
 
 ## About
-This skin is a modification of the existing Minerva Neue theme. It provides a sleek, modern interface that removes the clutter found in the default Vector theme. This theme removes the sidebar, introduces a stuck header bar with beautiful translucency, a collapsible menu with simple options, and a beautifully soft rounded interface.
+This skin is a modification of the existing Minerva Neue theme. It provides a sleek, modern interface that removes the clutter found in the default Vector theme. This theme removes the sidebar, introduces a stuck header bar with beautiful translucency, a collapsible menu with simple options, and a beautifully soft rounded interface with a Dark Mode.
 
 ## Installation on MediaWiki Projects
 A Wikipedia or MediaWiki account is required to install. Before you begin, ensure you know your account username.
