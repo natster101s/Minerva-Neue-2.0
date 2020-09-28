@@ -10,10 +10,12 @@ A Wikipedia or MediaWiki account is required to install. Before you begin, ensur
 The gist: copy the CSS and JavaScript from the provided links and add to your own Custom CSS and JavaScript for the Minerva Neue theme, and then select the Minerva Neue theme as your main. More detailed steps are outlined below.
 
 ### Step One
-Copy and paste the CSS from mediawiki.org/wiki/User:Natster101/minerva.css into mediawiki.org/wiki/User:YOURUSERNAME/minerva.css and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
+Copy and paste the CSS from [here](https://github.com/nathanielsorochan/Minerva-Neue-2.0/blob/master/minerva.css) into mediawiki.org/wiki/User:YOURUSERNAME/minerva.css and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
 
 ### Step Two
-Copy and paste the JavaScript from mediawiki.org/wiki/User:Natster101/minerva.js into mediawiki.org/wiki/User:YOURUSERNAME/minerva.js and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
+Copy and paste the JavaScript from [here](https://github.com/nathanielsorochan/Minerva-Neue-2.0/blob/master/minerva.js) into mediawiki.org/wiki/User:YOURUSERNAME/minerva.js and save changes. **For Wikipedia, change mediawiki.org to en.wikipedia.org.**
+
+*Please note, JavaScript is not necessary for the theme to function, but enhances the experience*
 
 ### Step Three
 On a MediaWiki project, Wikipedia for example, navigate to User Preferences and Appearance. Select Minerva Neue as the theme, and then press save! Please note that this theme will only display when logged into your Wikipedia account.
