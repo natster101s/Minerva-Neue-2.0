@@ -59,7 +59,7 @@
 	@media not all and (min-resolution:.001dpcm) { 
     @media {
         .overlay .header-container.header-chrome:hover {
-			width: 400px !important;
+			width: 420px !important;
 			margin: 0px !important;
 			border-top-left-radius: 0px !important;
 			border-top-right-radius: 0px !important;
@@ -128,9 +128,10 @@
 	.overlay.search-overlay.visible {
 		right: 0 !important;
 		left: auto;
-		width: 400px;
+		width: 420px;
 		height: auto;
 		min-height: 100px;
+		max-height: 100%;
 		border-bottom-left-radius: 20px;
 		transition: height 400ms ease-in-out;
 		box-shadow: 1px 0 8px 0 rgba(0,0,0,0.35);
@@ -139,7 +140,7 @@
 		padding-left: 0px;
 	}
 	.overlay.search-overlay .search-box {
-		width: 400px;
+		width: 420px;
 	}
 	.header .search-box .search {
 		width: 100%;
@@ -151,7 +152,7 @@
 	.overlay .header-container.header-chrome {
 		left: auto;
 		right: 0;
-		width: 400px !important;
+		width: 420px !important;
 	}
 	.overlay.search-overlay .overlay-title {
 		width: 100%;
@@ -277,6 +278,9 @@ html, body, #content, .mw-body, #mw-mf-page-center {
 	background: var(--infobox-background);
 	box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
 	
+}
+.infobox img {
+	background: rgba(255,255,255,0.7);
 }
 .overlay {
 	background: var(--translucent-background);
