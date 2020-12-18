@@ -31,6 +31,8 @@ Version 3.1: Includes a rebuilt collapsible navigation bar when scrolling that t
 
 Version 3.2: Simple bug fixes
 
+Version 4.0: Many bug fixes, including fixes for the Safari browser on Hi-DPI displays. Introduction of a new compact search UI.
+
 *Please note that versions prior to 3.2 are not documented on this git*
 
 ## Bugs and Fixes
