@@ -153,6 +153,7 @@
 		left: auto;
 		right: 0;
 		width: 420px !important;
+		background: transparent !important;
 	}
 	.overlay.search-overlay .overlay-title {
 		width: 100%;
@@ -168,7 +169,7 @@
 		font-size: 3em;
 		color: var(--text-color);
 	}
-	 p {
+	 body, p {
 font-size: 16px;
 }
 }
@@ -300,6 +301,15 @@ a {
 a:visited {
 	color: var(--visited-link-color);
 	
+}
+.content .infobox td:only-child, .content .infobox th:only-child {
+}
+.content .infobox th, .content .infobox td {
+	border-bottom: none;
+	padding: 10px 10px;
+}
+.infobox.geography td, .infobox.geography th {
+	border-top: none;
 }
 .infobox a, .wikitable a, table a {
 	color: #3366cc;
@@ -477,6 +487,9 @@ h2 .mw-headline {
 	font-size: 1.5em;
 	color: var(--text-color);
 }
+.content .mw-parser-output > h2, .content .section-heading {
+	border-bottom: none;
+}
 h3 .mw-headline{
 	font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text","Helvetica Neue",sans-serif;
 	font-weight: 600;
@@ -504,6 +517,7 @@ footer .last-modified-bar, .minerva-footer, footer > .post-content > h2 {
 .infobox {
 	border-radius: 20px;
 	box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
+	padding: 0;
 }
 table {
 	border-radius: 0px;
