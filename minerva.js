@@ -1,7 +1,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (screen.width > 767) {
+  if (window.innerWidth > 768) {
 		if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
 				document.querySelector(".branding-box img").style.width = "0px";
 				document.querySelector(".branding-box img").style.opacity = "0";
