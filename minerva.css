@@ -226,6 +226,9 @@ font-size: 16px;
 .header .search-box {
 	display: none;
 }
+.mw-parser-output .stack-container>div {
+	overflow: visible !important;
+}
 #mw-mf-page-left ul.hlist li a {
 	color: var(--link-color);
 }
@@ -361,6 +364,9 @@ a:visited {
 	border-bottom: none;
 	padding: 10px 10px;
 }
+.infobox.geography .mergedtoprow td, .infobox.geography .mergedtoprow th {
+	border-top: none;
+}
 .infobox.geography td, .infobox.geography th {
 	border-top: none;
 }
@@ -368,11 +374,15 @@ a:visited {
 	color: #3366cc;
 	
 }
-.content .infobox td:only-child, .content .infobox th:only-child {
-	background: transparent !important;
-}
-.content .infobox tbody > tr > td, .content .infobox tbody > tr > th {
-	background: transparent !important;
+@media (prefers-color-scheme: dark) {
+	.content .infobox td:only-child, .content .infobox th:only-child {
+		background-color: transparent !important;
+		color: var(--text-color) !important;
+	}
+	.content .infobox tbody > tr > td, .content .infobox tbody > tr > th {
+		background-color: transparent !important;
+		color: var(--text-color) !important;
+	}
 }
 .infobox a:visited, .wikitable a:visited, table a:visited {
 	color: #6b4ba1;
@@ -531,7 +541,7 @@ border-bottom-left-radius: 20px;
 /* Fonts */
 .pre-content h1 {
 	font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text","Helvetica Neue",sans-serif;
-	font-weight: 900;
+	font-weight: 800;
 	color: var(--text-color);
 	font-size: 3em;
 }
@@ -542,7 +552,7 @@ border-bottom-left-radius: 20px;
 }
 h2 .mw-headline {
 	font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text","Helvetica Neue",sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 1.5em;
 	color: var(--text-color);
 }
