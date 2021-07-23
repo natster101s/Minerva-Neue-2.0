@@ -25,11 +25,21 @@
 		margin: 0 !important;
 		left: 0;
 		height: 55px;
-		width: 100% !important;
+		width: 100px;
 		right: inherit;
 		border-radius: 0px !important;
 		box-shadow: none !important;
         background: transparent;
+	}
+	.overlay-issues {
+		width: 420px;
+		left: initial;
+		right: 0;
+	}
+	.overlay-header-container {
+		width: 420px;
+		left: initial !important;
+		right: 0;
 	}
 	.header-container.header-chrome:hover {
 		width: 350px !important;
@@ -59,6 +69,13 @@
 		padding-top: 0px !important;
 		padding-bottom: 0px !important;
 		height: 55px !important;
+	}
+	.page-actions-menu__list {
+		justify-content: left;
+	}
+	.page-actions-overflow-list {
+		left: initial;
+		right: initial;
 	}
 	@media not all and (min-resolution:.001dpcm) { 
     @media {
@@ -91,7 +108,7 @@
 		border: 0;
 		border-radius: 20px;
 		right: 0;
-		box-shadow: 3px 3px 6px rgba(0,0,0,0.20) !important;
+		box-shadow: 3px 12px 25px rgba(0,0,0,0.16) !important;
 	}
 	.header-chrome.overlay-header-container + .overlay-content {
 		padding-top: 0;
@@ -102,7 +119,6 @@
 		border-top-left-radius: 20px;
 	}
 	.thumb {
-		box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
 		border-radius: 20px;
 	}
 	.content figcaption, .content .thumbcaption {
@@ -173,9 +189,12 @@
 		height: 100%;
 		position: fixed;
 		transition: height 400ms ease-in-out;
-		box-shadow: 1px 0 8px 0 rgba(0,0,0,0.35);
+		box-shadow: -2px 0px 25px rgba(0,0,0,0.2) !important;
 		-webkit-animation: search 150ms linear forwards !important;
 		animation: search 150ms linear forwards !important;
+	}
+	.overlay-header-container.position-fixed, .overlay-footer-container.position-fixed {
+		border: 0;
 	}
 	.overlay-enabled #mw-mf-viewport {
 		transform: translatex(-420px);
@@ -313,7 +332,7 @@ html, body, #content, .mw-body, #mw-mf-page-center {
 	filter: var(--filter);
 }
 .client-js .toc {
-	background-color: var(--body-background);
+	background-color: var(--whiteblack);
 	border-radius: 20px;
 }
 #pt-notifications-alert .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read, #pt-notifications-notice .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read {
@@ -330,7 +349,6 @@ html, body, #content, .mw-body, #mw-mf-page-center {
 	border-radius: 20px;
 	border: none;
 	background: var(--infobox-background);
-	box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
 	
 }
 .content table caption {
@@ -346,7 +364,7 @@ html, body, #content, .mw-body, #mw-mf-page-center {
 	
 }
 .hatnote {
-	background: var(--translucent-background);
+	background: var(--whitegrey);
 	color: var(--caption);
 	border-radius: 10px;
 }
@@ -410,13 +428,15 @@ a:visited {
 		--infobox-background: rgba(255, 255, 255, 1);
 		--menu-background: rgba(234, 236, 240, 0.96);
 		--hatnote-background: rgba(234, 236, 240, 0.8);
-		--body-background: #ffffff;
+		--body-background: #eef0f2;
 		--text-color: #000000;
 		--link-color: #3366cc;
 		--visited-link-color: #6b4ba1;
 		--filter: none;
 		--caption: #54595d;
 		--image-border: none;
+		--whiteblack: #fff;
+		--whitegrey: #fff;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -431,6 +451,8 @@ a:visited {
 		--filter: brightness(0) invert(1);
 		--caption: #fff;
 		--image-border: 2px solid #fff;
+		--whiteblack: #000;
+		--whitegrey: rgba(75, 75, 75, 0.8);
 	}
 }
 
@@ -468,8 +490,9 @@ a:visited {
 	margin-bottom: 20px;
 margin-top: 10px;
 border: 0;
-box-shadow: 3px 3px 6px rgba(0,0,0,0.20);
+box-shadow: none;
 border-radius: 20px;
+background: var(--whiteblack);
 }
 .page-list, .topic-title-list, .site-link-list {
 	overflow: visible;
@@ -495,7 +518,7 @@ border-bottom-left-radius: 20px;
 	box-sizing: border-box;
 	border: 0;
 	height: 65px;
-	box-shadow: 3px 3px 6px rgba(0,0,0,0.20) !important;
+	box-shadow: 3px 12px 25px rgba(0,0,0,0.16) !important;
 	transition: all 250ms ease-in-out;
 }
 /* Targeting Safari for Backdrop Filter and Font size bug*/
@@ -585,12 +608,10 @@ footer .last-modified-bar, .minerva-footer, footer > .post-content > h2 {
 }
 .infobox {
 	border-radius: 20px;
-	box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
 	padding: 0;
 }
 table {
 	border-radius: 0px;
-	box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
 }
 input {
 	border-radius: 10px;
@@ -609,7 +630,6 @@ input {
 .overlay.search-overlay .header input {
 	border-radius: 10px;
 	border: 0;
-	box-shadow: 5px 5px 30px rgba(0,0,0,0.15);
 }
 .client-js #searchIcon {
 	display: block;
