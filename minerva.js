@@ -1,8 +1,7 @@
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (window.innerWidth > 768) {
-		if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 				document.querySelector(".branding-box img").style.width = "0px";
 				document.querySelector(".branding-box img").style.opacity = "0";
 				document.querySelector(".header-container").style.width = "200px";
@@ -24,7 +23,7 @@ function scrollFunction() {
 				document.querySelector(".header-container").style.paddingBottom = "5px";
 		}
 	} else {
-			if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+			if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
 				document.querySelector(".branding-box img").style.width = "0px";
 				document.querySelector(".branding-box img").style.opacity = "0";
 				document.querySelector(".header-container").style.width = "189px";
@@ -48,3 +47,22 @@ function scrollFunction() {
 			}
 	}
 }
+/* Preparing for iOS 15 and macOS Monterey
+var link = document.createElement('meta');
+function lightthemecolor() {
+  link.setAttribute('name', 'theme-color');
+  link.content = '#f2f2f2';
+  document.getElementsByTagName('head')[0].appendChild(link);
+}
+function darkthemecolor() {
+  link.setAttribute('name', 'theme-color');
+  link.content = '#3d3d3d';
+  document.getElementsByTagName('head')[0].appendChild(link);
+}
+if (window.matchMedia && 
+    window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  darkthemecolor();
+} else {
+	lightthemecolor();
+}
+*/
