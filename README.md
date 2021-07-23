@@ -1,6 +1,9 @@
 # Minerva-Neue-2.0
 A modification to the MediaWiki Minerva Neue skin. Can be used on all MediaWiki projects, including Wikipedia.
 
+![Light Mode](https://commons.wikimedia.org/wiki/File:Minerva_Neue_2.0_4.1_Light.png)
+![Dark Mode](https://commons.wikimedia.org/wiki/File:Minerva_Neue_2.0_4.1_Dark.png)
+
 ## About
 This skin is a modification of the existing Minerva Neue theme. It provides a sleek, modern interface that removes the clutter found in the default Vector theme. Some of its highlights include removing the sidebar and introducing a stuck header bar with beautiful translucency, a collapsible menu with simple options, a compact search UI, and a soft, rounded interface with an automatic dark mode.
 
@@ -31,7 +34,9 @@ Version 3.1: Includes a rebuilt collapsible navigation bar when scrolling that t
 
 Version 3.2: Simple bug fixes
 
-Version 4.0: Many bug fixes, including fixes for the Safari browser on Hi-DPI displays. Introduction of a new compact search UI.
+Version 4.0: Many bug fixes, including fixes for the Safari browser on Hi-DPI displays. Introduction of a new compact sidebar search UI.
+
+Version 4.1: UI tweaks to light theme for better performance, sidebar UI expanded to other information panels, and preparation for iOS 15 and macOS Monterey with meta tag theme-color.
 
 *Please note that versions prior to 3.2 are not documented on this git*
 
@@ -42,4 +47,4 @@ For those who encounter bugs or issues without any coding experience, please cre
 
 Please note that the Dark Mode is experimental at this point, and some elements may not render correctly, especially when editing, but we're working on it! It is recommended at this point to turn off dark mode when editing. As well, we are aware of an issue where pages may take a little longer to load.
 
-
+iOS 15 currently spaces the compact navigation bar icons incorrectly. We will wait for the final release until we make any changes, as this appears to be a bug on Apple's end
