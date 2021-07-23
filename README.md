@@ -1,8 +1,8 @@
 # Minerva-Neue-2.0
 A modification to the MediaWiki Minerva Neue skin. Can be used on all MediaWiki projects, including Wikipedia.
 
-![Light Mode](https://commons.wikimedia.org/wiki/File:Minerva_Neue_2.0_4.1_Light.png)
-![Dark Mode](https://commons.wikimedia.org/wiki/File:Minerva_Neue_2.0_4.1_Dark.png)
+![Light Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Minerva_Neue_2.0_4.1_Light.png/2560px-Minerva_Neue_2.0_4.1_Light.png)
+![Dark Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Minerva_Neue_2.0_4.1_Dark.png/2560px-Minerva_Neue_2.0_4.1_Dark.png)
 
 ## About
 This skin is a modification of the existing Minerva Neue theme. It provides a sleek, modern interface that removes the clutter found in the default Vector theme. Some of its highlights include removing the sidebar and introducing a stuck header bar with beautiful translucency, a collapsible menu with simple options, a compact search UI, and a soft, rounded interface with an automatic dark mode.
