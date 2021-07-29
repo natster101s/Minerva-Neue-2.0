@@ -28,15 +28,15 @@ On a MediaWiki project, Wikipedia for example, navigate to User Preferences and 
 ## Changelog
 Version 2.0: The code for this theme has been completely rewritten and is now much more efficient. It also includes a dark mode (currently experimental) that is toggled on or off in accordance with the settings of your operating system. macOS Mojave, iOS 13 and Windows 10 or higher are required. This feature also requires the latest version of Chrome, Safari or Firefox to be installed. 
 
-Version 3.0: Includes an all new navigation bar at the top left that takes up less space.
+**Version 3.0:** Includes an all new navigation bar at the top left that takes up less space.
 
-Version 3.1: Includes a rebuilt collapsible navigation bar when scrolling that takes up even less space, and major bug fixes. Collapsible navigation bar can be turned off by removing JavaScript.
+**Version 3.1:** Includes a rebuilt collapsible navigation bar when scrolling that takes up even less space, and major bug fixes. Collapsible navigation bar can be turned off by removing JavaScript.
 
-Version 3.2: Simple bug fixes
+**Version 3.2:** Simple bug fixes
 
-Version 4.0: Many bug fixes, including fixes for the Safari browser on Hi-DPI displays. Introduction of a new compact sidebar search UI.
+**Version 4.0:** Many bug fixes, including fixes for the Safari browser on Hi-DPI displays. Introduction of a new compact sidebar search UI.
 
-Version 4.1: UI tweaks to light theme for better performance, sidebar UI expanded to other information panels, and preparation for iOS 15 and macOS Monterey with meta tag theme-color.
+**Version 4.1:** UI tweaks to light theme for better performance, sidebar UI expanded to other information panels, and preparation for iOS 15 and macOS Monterey with meta tag theme-color.
 
 *Please note that versions prior to 3.2 are not documented on this git*
 
@@ -47,4 +47,4 @@ For those who encounter bugs or issues without any coding experience, please cre
 
 Please note that the Dark Mode is experimental at this point, and some elements may not render correctly, especially when editing, but we're working on it! It is recommended at this point to turn off dark mode when editing. As well, we are aware of an issue where pages may take a little longer to load.
 
-iOS 15 currently spaces the compact navigation bar icons incorrectly. We will wait for the final release until we make any changes, as this appears to be a bug on Apple's end
+iOS 15 currently spaces the compact navigation bar icons incorrectly. We will wait for the final release until we make any changes, as this appears to be a bug on Apple's end *(Edit: Fixed as of iOS 15 beta 4)*
