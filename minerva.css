@@ -10,6 +10,10 @@
 		margin-left: auto;h
 		margin-right: auto;
 	}
+	.overlay.search-overlay .header-cancel {
+		display: block;
+    		margin-top: 6px;
+	}
 	.thumbimage {
 		border-top-right-radius: 20px !important;h
 		border-bottom-right-radius: 0px !important;
@@ -244,10 +248,6 @@
 	 body, p {
 font-size: 16px;
 }
-}
-.overlay.search-overlay .header-cancel {
-	display: block;
-    margin-top: 6px;
 }
 .k-player{
 	background-color: transparent;
