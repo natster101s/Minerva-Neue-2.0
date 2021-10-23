@@ -38,6 +38,8 @@ Version 2.0: The code for this theme has been completely rewritten and is now mu
 
 **Version 4.1:** UI tweaks to light theme for better performance, sidebar UI expanded to other information panels, and preparation for iOS 15 and macOS Monterey with meta tag theme-color.
 
+**Version 4.1.1:** A couple of bug fixes, including changes to search and the theme colour made on Wikipedia's end that are now fixed. 
+
 *Please note that versions prior to 3.2 are not documented on this git*
 
 ## Bugs and Fixes
