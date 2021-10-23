@@ -1,4 +1,3 @@
-window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (window.innerWidth > 768) {
 		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -47,11 +46,13 @@ function scrollFunction() {
 			}
 	}
 }
-/* Preparing for iOS 15 and macOS Monterey
-var link = document.createElement('meta');
+window.onscroll = function () { scrollFunction () };
+
+/* Preparing for iOS 15 and macOS Monterey */
+const link = document.querySelector("meta[name=theme-color]");
 function lightthemecolor() {
   link.setAttribute('name', 'theme-color');
-  link.content = '#f2f2f2';
+  link.content = '#ebecf0';
   document.getElementsByTagName('head')[0].appendChild(link);
 }
 function darkthemecolor() {
@@ -65,4 +66,3 @@ if (window.matchMedia &&
 } else {
 	lightthemecolor();
 }
-*/
