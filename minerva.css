@@ -1,3 +1,14 @@
+/* Recent Bug Fixes */
+.minerva-header .search-box {
+	width: 0 !important;
+}
+.minerva-header .branding-box {
+	min-width: 0 !important;
+}
+.minerva-user-navigation {
+	min-width: 0;
+}
+
 @media screen and (min-width: 768px) {
 	.banner-container, .header, .page-header-bar, .overlay-header, .content, .overlay-content, .content-unstyled, .pre-content, .post-content, #mw-content-text > form, #mw-mf-page-center .pointer-overlay {
 		width: 100%;
@@ -48,6 +59,7 @@
 	.search-overlay .search-box .search, .minerva-header .search-box .search {
 		width: 360px;
 	}
+	/*
 	.header-container.header-chrome:hover {
 		width: 350px !important;
 		margin: 15px !important;
@@ -77,6 +89,7 @@
 		padding-bottom: 0px !important;
 		height: 55px !important;
 	}
+	*/
 	.page-actions-menu__list {
 		justify-content: left;
 	}
