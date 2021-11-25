@@ -40,6 +40,8 @@ Version 2.0: The code for this theme has been completely rewritten and is now mu
 
 **Version 4.1.1:** A couple of bug fixes, including changes to search and the theme colour made on Wikipedia's end that are now fixed. 
 
+**Version 4.1.2** CRITICAL Bug Fixes. Wikipedia made some changes to the site on their end to the navigation bar which broke this theme. Please update to the new code as soon as possible to avoid any undesirable glitches.
+
 *Please note that versions prior to 3.2 are not documented on this git*
 
 ## Bugs and Fixes
