@@ -328,6 +328,9 @@ END*/
 	#mw-mf-viewport {
 		transform: inherit;
 		transition: transform 150ms ease-in-out /*cubic-bezier(.2,.67,.25,.99)*/;
+		max-width: 90%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.overlay.search-overlay .overlay-title {
 		padding-left: 0px;
