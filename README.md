@@ -1,6 +1,8 @@
 # Minerva-Neue-2.0
 A modification to the MediaWiki Minerva Neue skin. Can be used on all MediaWiki projects, including Wikipedia.
 
+**CAUTION: This is the Alpha branch, which includes some changes that may break your experience on Wikipedia. Unless you are experienced at debugging, we recommend that you remain on the Main branch.**
+
 ![Light Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Minerva_Neue_2.0_4.1_Light.png/2560px-Minerva_Neue_2.0_4.1_Light.png)
 ![Dark Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Minerva_Neue_2.0_4.1_Dark.png/2560px-Minerva_Neue_2.0_4.1_Dark.png)
 
