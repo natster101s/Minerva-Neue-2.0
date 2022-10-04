@@ -43,6 +43,8 @@ Version 2.0: The code for this theme has been completely rewritten and is now mu
 
 **Version 4.1.2:** CRITICAL Bug Fixes. Wikipedia made some changes to the site on their end to the navigation bar which broke this theme. Please update to the new code as soon as possible to avoid any undesirable glitches.
 
+**Version 4.1.3:** Fixes to the Wikipedia homepage to make the text *actually* readable. 
+
 **Future:** We have some exciting things in the works that will make your Wikipedia reading experience even sleeker, but they aren't ready to be released yet. Maybe in an optional alpha channel?
 
 *Please note that versions prior to 3.2 are not documented on this git*
