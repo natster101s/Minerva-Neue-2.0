@@ -768,8 +768,8 @@ thead th {
 .page-Main_Page .mp-h2 {
 	border-radius: 8px;
 }
-.page-Main_Page .wikitable, table {
-	color: var(--text-color);
+.page-Main_Page table {
+	color: var(--text-color) !important;
 }
 .page-Main_Page #mw-mf-viewport {
 	padding-top: 100px;
