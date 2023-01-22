@@ -107,7 +107,7 @@
 		top: 0 !important;
 		z-index: 2;
 		padding-top: 5px;
-		width: 350px;
+		width: 410px;
 		padding-bottom: 5px;
 		margin: 30px 30px 0 0;
 		border: 0;
@@ -290,6 +290,9 @@ html, body, #content, .mw-body, #mw-mf-page-center {
 	background: var(--body-background);
 	color: var(--text-color);
 }
+.mw-parser-output .hlist dd, .mw-parser-output .hlist dt, .mw-parser-output .hlist li {
+	color: #000;
+}
 .toggle-list__list {
 	background: var(--translucent-background);
 	-webkit-backdrop-filter: blur(20px);
@@ -347,6 +350,10 @@ html, body, #content, .mw-body, #mw-mf-page-center {
 .client-js .toc {
 	background-color: var(--whiteblack);
 	border-radius: 20px;
+	padding: 10px;
+}
+.client-js .toc .toctitle .toctogglespan + .mw-ui-icon {
+	top: inherit;
 }
 #pt-notifications-alert .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read, #pt-notifications-notice .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read {
 	opacity: 1;
@@ -615,6 +622,7 @@ h2 .mw-headline {
 	font-weight: 700;
 	font-size: 1.5em;
 	color: var(--text-color);
+	padding: 1em 0 0.2em 0;
 }
 .content .mw-parser-output > h2, .content .section-heading {
 	border-bottom: none;
@@ -736,6 +744,12 @@ thead th {
 	-webkit-backdrop-filter: blur(20px);
 	backdrop-filter: blur(20px);
 	color: var(--text-color);
+}
+.page-list.side-list .list-thumb, .topic-title-list.side-list .list-thumb, .site-link-list.side-list .list-thumb {
+	color: var(--text-color);
+}
+.mw-ui-icon {
+	height: auto;
 }
 .wikiEditor-ui-toolbar .oo-ui-iconElement-icon {
 	filter: none;
