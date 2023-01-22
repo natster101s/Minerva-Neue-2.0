@@ -25,14 +25,15 @@ function scrollFunction() {
 				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
 				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
 				document.querySelector(".minerva-user-navigation").style.paddingBottom = "10px";
+				document.querySelector(".minerva-user-navigation .minerva-user-notifications ul").style.flexDirection = "column";
 			
 		} else {
-				document.querySelector(".minerva-header .branding-box").style.width = "119px";
+				document.querySelector(".minerva-header .branding-box").style.width = "128px";
 				document.querySelector(".minerva-header .branding-box").style.height = "auto";
 				document.querySelector(".overlay-header, .minerva-header").style.display = "flex";
 				document.querySelector(".branding-box img").style.opacity = "1";
 				document.querySelector(".minerva-header .branding-box").style.position = "static";
-				document.querySelector(".header-container").style.width = "350px";
+				document.querySelector(".header-container").style.width = "410px";
 				document.querySelector(".header-container").style.height = "65px";
 				document.querySelector(".header-container").style.margin = "30px 30px 0 0";
 				document.querySelector(".header-container").style.borderRadius = "20px";
@@ -50,6 +51,7 @@ function scrollFunction() {
 				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
 				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
 				document.querySelector(".minerva-user-navigation").style.paddingBottom = "0px";
+				document.querySelector(".minerva-user-navigation .minerva-user-notifications ul").style.flexDirection = "row";
 		}
 	} else {
 			if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
