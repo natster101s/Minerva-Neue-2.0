@@ -45,7 +45,9 @@ Version 2.0: The code for this theme has been completely rewritten and is now mu
 
 **Version 4.1.3:** Fixes to the Wikipedia homepage to make the text *actually* readable. 
 
-**Future:** We have some exciting things in the works that will make your Wikipedia reading experience even sleeker, but they aren't ready to be released yet. Maybe in an optional alpha channel?
+**Version 4.1.4** Fixed spacing of the header with the new added icon, and other fixes.
+
+**Future:** I have some exciting things in the works that will make your Wikipedia reading experience even sleeker, but they aren't ready to be released yet. Maybe in an optional alpha channel?
 
 *Please note that versions prior to 3.2 are not documented on this git*
 
