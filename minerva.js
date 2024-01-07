@@ -25,7 +25,8 @@ function scrollFunction() {
 				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
 				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
 				document.querySelector(".minerva-user-navigation").style.paddingBottom = "10px";
-				document.querySelector(".minerva-user-navigation .minerva-user-notifications ul").style.flexDirection = "column";
+				document.querySelector(".minerva-user-navigation .minerva-notifications ul").style.flexDirection = "column";
+				document.querySelector(".client-js #searchIcon").style.margin = "initial";
 			
 		} else {
 				document.querySelector(".minerva-header .branding-box").style.width = "128px";
@@ -51,7 +52,8 @@ function scrollFunction() {
 				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
 				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
 				document.querySelector(".minerva-user-navigation").style.paddingBottom = "0px";
-				document.querySelector(".minerva-user-navigation .minerva-user-notifications ul").style.flexDirection = "row";
+				document.querySelector(".minerva-user-navigation .minerva-notifications ul").style.flexDirection = "row";
+				document.querySelector(".client-js #searchIcon").style.margin = "0px 55px 0px 0px";
 		}
 	} else {
 			if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -80,7 +82,7 @@ function scrollFunction() {
 }
 window.onscroll = function () { scrollFunction () };
 
-/* Preparing for iOS 15 and macOS Monterey */
+/* Theme Colour */
 const link = document.querySelector("meta[name=theme-color]");
 function lightthemecolor() {
   link.setAttribute('name', 'theme-color');
@@ -98,7 +100,6 @@ if (window.matchMedia &&
 } else {
 	lightthemecolor();
 }
-
 function test() {
 	var elements = document.getElementsByClassName('infobox');
 	var requiredElement = elements[0];
